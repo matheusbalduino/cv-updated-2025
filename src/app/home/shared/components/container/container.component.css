@@ -1,0 +1,12 @@
+.container {
+    margin: 0 15%; /* 15% margin on the left and right */   
+    min-height: 100vh; /* Ensures the container fills the viewport height */
+    padding: 20px; /* Optional: Adds padding inside the container */
+    box-shadow: none; /* Removes any shadow */
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0; /* Removes margin for smaller screens */
+    }
+}

@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Regular", sans-serif;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+
+:root {
+    --primary-color: #D1D1D1;
+    --accent-color: #ff4081;
+    --warn-color: #f44336;
+    --background-color: #1f1f28;
+    --background-color-secondary: #262532;
+    --bubble-large: 40vh;
+    --bubble-small: 20vh;
+    --distance-bubble: 85vw;
+    --distance-bubble-small: 65vw;
+    --mat-card-subtitle-text-color:rgba(152, 151, 151, 0.759);
+}

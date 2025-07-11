@@ -1,0 +1,23 @@
+<div class="grid" [ngStyle]="{'grid-template-columns': widthGrid}">
+  <mat-card class="card" *ngFor="let item of items" style="padding:1.5vw">
+    <mat-card-header>
+      <mat-card-title>
+        <p [innerHTML]='item.title'> </p>
+      </mat-card-title>
+      <mat-card-subtitle>
+        <p [innerHTML]='item.subtitle'></p>
+      </mat-card-subtitle>
+      <mat-card-subtitle *ngIf="item.link">
+        <a [href]="item.link" target="_blank" rel="noopener noreferrer">
+          {{ item.link }}
+        </a>
+      </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content >
+       <div style="text-align: justify;" [innerHTML]='item.content'></div>
+    </mat-card-content>
+    <mat-card-footer style="font-size: 0.8em; color: gray; margin-top: 3vh;"  align="end" *ngIf="item.date" >
+      <div [innerHTML]='item.date'></div>
+    </mat-card-footer>
+  </mat-card>
+</div>

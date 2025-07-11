@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card-image {
+    padding: 10px;
+    background-color: rgb(152, 154, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Defina uma altura para o card */
+}
+
+.card-image-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.card-image:hover {
+    background-color: #5b5b8a; /* a lighter/different shade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

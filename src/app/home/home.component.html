@@ -1,0 +1,18 @@
+<div class="container">
+  <app-container>
+    <div class="header">
+      <app-title [ImageSrc]="imageTile" [TitleText]="HomeText" Alignment="center"></app-title>
+    </div>
+    <!-- Menu Options -->
+    <app-nav [MenuItems]="Items" [MarginTop]="5"></app-nav>
+
+    <!-- Dynamic Content Based on Route -->
+    <div style="margin-top: 5vh">
+      <router-outlet></router-outlet>
+    </div>
+
+    <div class="bubble_top_left"></div>
+    <div class="bubble_top_right"></div>
+    <div class="bubble_bottom_middle"></div>
+  </app-container>
+</div>

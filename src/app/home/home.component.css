@@ -1,0 +1,59 @@
+/* File: src/app/home/home.component.css */
+.header {
+  margin-top: 10vh;
+}
+
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.bubble_top_left {
+  z-index: -1;
+  top: 35vh;
+  right: var(--distance-bubble);
+  position: absolute;
+  width: var(--bubble-large);
+  height: var(--bubble-large);
+  background-color: var(--background-color-secondary);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.bubble_top_right {
+  position: absolute;
+  z-index: -1;
+  bottom: 80vh;
+  left: var(--distance-bubble);
+  width: var(--bubble-large);
+  height: var(--bubble-large);
+  background-color: var(--background-color-secondary);
+  border-radius: 50%;
+  overflow-y: hidden;
+
+}
+
+.bubble_bottom_middle {
+  position: absolute;
+  z-index: -1;
+  top: 90vh;
+  left: 65vw;
+  width: var(--bubble-small);
+  height: var(--bubble-small);
+  background-color: var(--background-color-secondary);
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .bubble_top_left {    
+    width: var(--bubble-small);
+    height: var(--bubble-small);
+  }
+  .bubble_top_right {
+    bottom:90vh;
+    width: var(--bubble-small);
+    height: var(--bubble-small);
+  }
+}

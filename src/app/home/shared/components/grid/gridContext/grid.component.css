@@ -1,0 +1,32 @@
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    padding: 10px;
+    background-color: #36363D;
+}
+
+.card:hover {
+    background-color: #4a4a56;
+    /* a lighter/different shade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.margin-top {
+    margin-top: 3vh;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    word-break: break-word;
+}

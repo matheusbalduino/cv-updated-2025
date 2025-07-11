@@ -1,0 +1,6 @@
+.title{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem); /* Dynamically scales font size */
+}

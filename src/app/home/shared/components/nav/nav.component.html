@@ -1,0 +1,10 @@
+<nav class="menu" [ngStyle]="{ 'margin-top': top }">
+  <a
+    *ngFor="let item of MenuItems"
+    [ngStyle]="{ color: item.color }"
+    [routerLink]="item.link"
+    routerLinkActive="active"
+  >
+    {{ item.label }}
+  </a>
+</nav>
