@@ -1,4 +1,4 @@
-import{a as d}from"./chunk-5RVKKZCV.js";import"./chunk-MRM6Q25Q.js";import"./chunk-TXEKV7TR.js";import"./chunk-LKV5R2YV.js";import{Da as i,Ta as o,Xa as a,Ya as r,Za as s,ba as n,nb as l}from"./chunk-Q64L5WXK.js";var f=(()=>{class e{constructor(){this.items=[{title:"Software Engineer",subtitle:"Freelance, Remote",content:`Freelance web developer focused on building and enhancing websites with
+import{a as d}from"./chunk-4WYJY74U.js";import"./chunk-46O6NNFC.js";import"./chunk-LKV5R2YV.js";import{Da as i,Ta as o,Xa as a,Ya as r,Za as s,ba as n,nb as l}from"./chunk-Q64L5WXK.js";var f=(()=>{class e{constructor(){this.items=[{title:"Software Engineer",subtitle:"Freelance, Remote",content:`Freelance web developer focused on building and enhancing websites with
                 modern technologies. In charge of designing and delivering features following
                 agile best practices. 
                 Proficient in automating deployments through CI/CD
