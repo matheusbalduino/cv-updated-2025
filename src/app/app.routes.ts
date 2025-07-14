@@ -3,7 +3,7 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
     {
         path: '',
-        loadComponent: () => import('./home/home.component').then(m => m.HomeComponent) // Lazy load the HomeComponent
+        loadChildren: () => import('./home/home.module').then(m => m.HomeModule), // Lazy load the HomeComponent
     },
     {
         path: 'home',
